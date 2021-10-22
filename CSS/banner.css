@@ -1,0 +1,89 @@
+.sum_cont_banner{
+    height: 100vh;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Fondo\ 1920.jpg");
+}
+.sum_sombra{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 85%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+}
+/* .sum_sombra hr{
+    border-top: 1px solid #fff;
+}
+
+.sum_sombra h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.sum_sombra p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+} */
+
+.sum_cont_banner_link {
+    margin: 15px;
+    position: relative;
+}
+
+.sum_cont_banner_link a {
+    position: relative;
+    display:inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.sum_cont_banner_link a:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+/* le dan el efecto de animación y transparencia a los botones del banner */
+/* ojo apunta a keyframes.css */
+
+.sum_banner_link {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+}
+.sum_banner_link_1 {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+.sum_banner_link_2 {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.sum_banner_link_3 {
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 1s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
